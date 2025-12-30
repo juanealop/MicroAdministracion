@@ -1,0 +1,7 @@
+spring:
+  application:
+  # This should match the name used in config files
+    name: Registrar_ganado
+  config:
+  # Config server url
+    import: configserver:http://localhost:8088
